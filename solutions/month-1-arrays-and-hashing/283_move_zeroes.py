@@ -5,3 +5,5 @@ class Solution:
             if nums[reader] != 0:
                 nums[writer] = nums[reader]
                 writer += 1
+# time complexity: O(n)
+# space complexity: O(1)
